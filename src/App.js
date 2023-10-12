@@ -8,7 +8,7 @@ import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Ka
 
 const App = () => {
   // active menu for side menu
-  const activeMenu = false;
+  const activeMenu = true;
   // end of active menu logic
 
   return (

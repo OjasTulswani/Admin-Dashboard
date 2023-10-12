@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ThemeSettings = () => {
-  return (
-    <div>
-      ThemeSettings
-    </div>
-  )
-}
+  return <div>ThemeSettings</div>;
+};
 
-export default ThemeSettings
+export default ThemeSettings;
