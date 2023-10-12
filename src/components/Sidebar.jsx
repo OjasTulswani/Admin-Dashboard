@@ -21,7 +21,7 @@ import { useStateContext } from '../contexts/ContextProvider';
         <> 
           {/* shoppy icon  */}
           <div className="flex justify-between items-center">
-            <Link to="/" onClick={() => setActiveMenu(false)} className="items-center gap-3 ml-3 mt-6 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900">
+            <Link to="/" onClick={() => setActiveMenu(false)} className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900">
               <SiShopware /> <span>Shoppy</span>
             </Link>
             {/* cross button of sidebar  */}
@@ -36,7 +36,7 @@ import { useStateContext } from '../contexts/ContextProvider';
           <div className='mt-10'>
           {links.map((item) => (
             <div key={item.title}> 
-            <p className='text-gray-400 m-3 mt-4 uppercase'>
+            <p className='text-gray-400 dark:text-gray-400 m-3 mt-4 uppercase'>
               {item.title}
             </p>
             {item.links.map((link) =>(
