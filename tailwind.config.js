@@ -39,8 +39,10 @@ module.exports = {
           590: '590px',
         },
         backgroundImage: {
+          
           'hero-pattern':
-            "url('https://i.ibb.co/MkvLDfb/Rectangle-4389.png')",
+            "url('https://segurosypensionesparatodos.fundacionmapfre.org/media/seguros/reclamacion-seguros-1194x535-1.png')",
+          
         },
       },
     },
