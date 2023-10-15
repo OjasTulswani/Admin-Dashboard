@@ -783,7 +783,7 @@ export const medicalproBranding = {
 
 export const themeColors = [
   {
-    name: 'blue-theme',
+    name: '{currentColor}-theme',
     color: '#1A97F5',
   },
   {
@@ -2825,7 +2825,7 @@ export const scheduleData = [
   },
   {
     Id: 3,
-    Subject: 'Blue Moon Eclipse',
+    Subject: '{currentColor} Moon Eclipse',
     Location: 'Space Center USA',
     StartTime: '2023-10-19T04:00:00.000Z',
     EndTime: '2023-10-19T05:30:00.000Z',
@@ -3144,7 +3144,7 @@ export const stackedCustomSeries = [
     yName: 'y',
     name: 'Budget',
     type: 'StackingColumn',
-    background: 'blue',
+    background: '{currentColor}',
 
   },
 

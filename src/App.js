@@ -26,11 +26,11 @@ import { useStateContext } from "./contexts/ContextProvider";
 
 const App = () => {
   // active menu for side menu
-  const { activeMenu, setThemeSettings, themeSettings } = useStateContext();
+  const { activeMenu, setThemeSettings, themeSettings, currentColor, currentMode } = useStateContext();
   // end of active menu logic
 
   return (
-    <div>
+    <div className={ currentMode === 'Dark' ? 'dark' : ""}>
       {/* setting logo of page code starts here */}
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
@@ -40,7 +40,7 @@ const App = () => {
                 type="button"
                 className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white"
                 onClick={() => setThemeSettings(true)}
-                style={{ background: "blue", borderRadius: "50%" }}
+                style={{ background:currentColor, borderRadius: "50%" }}
               >
                 <FiSettings />
               </button>
