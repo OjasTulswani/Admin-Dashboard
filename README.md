@@ -2,6 +2,10 @@
 
 React Admin Dashboard is a stunning web application with a beautiful user interface built using advanced JavaScript concepts, React, and CSS. This dashboard provides a comprehensive and intuitive user experience, allowing users to easily manage and track their data. React is a powerful JavaScript library that enables developers to build efficient and dynamic user interfaces, while CSS provides a collection of pre-defined classes that make it easy to style and customize UI elements. The combination of these two technologies, along with advanced JavaScript concepts, makes for a highly responsive and engaging user experience. With React Admin Dashboard, users can stay on top of their data with ease and enjoy a visually pleasing interface.
 
+
+## Demo 
+![Screenshot (125)](https://github.com/user-attachments/assets/fa0dcc1b-d1b0-4493-9954-026ebd9d4802)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -17,9 +21,11 @@ Before you start, make sure you have the following software installed on your co
 
 1. Clone the repository to your local machine
 
+
 ```bash
 git clone https://github.com/OjasTulswani/Admin-Dashboard.git
 ```
+
 
 2. Navigate to the project directory
 
